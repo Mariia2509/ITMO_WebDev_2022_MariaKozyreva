@@ -1,14 +1,17 @@
 import { createApp } from 'vue'
-import { createPinia } from 'pinia'
-
 import App from './App.vue'
-import router from './router'
+import { anu } from 'anu-vue'
 
-import './assets/main.css'
+// UnoCSS import
+import 'uno.css'
 
-const app = createApp(App)
+// anu styles
+import 'anu-vue/dist/style.css'
 
-app.use(createPinia())
-app.use(router)
+// default theme styles
+import '@anu-vue/preset-theme-default/dist/styles.scss'
 
-app.mount('#app')
+// Using `app.use(anu)` will register all the components globally
+createApp(App)
+    .use(anu)
+    .mount('#app')
