@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import App from './App.vue'
+import AppProductList from './AppProductList.vue'
 import { anu } from 'anu-vue'
 
 // UnoCSS import
@@ -12,6 +12,6 @@ import 'anu-vue/dist/style.css'
 import '@anu-vue/preset-theme-default/dist/styles.scss'
 
 // Using `app.use(anu)` will register all the components globally
-createApp(App)
+createApp(AppProductList)
     .use(anu)
     .mount('#app')
