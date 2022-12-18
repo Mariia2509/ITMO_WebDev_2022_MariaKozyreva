@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="ts" xmlns="http://www.w3.org/1999/html">
 </script>
 
 <template>
@@ -30,13 +30,90 @@
           <p class="text-sm my-2">Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in t... </p>
         </div>
       </a>
-    </div>
       <div class="grid-row w-full px-3 pb-3">
-        <div class="grid grid-col grid-gap-2 w-full"></div>
-        <div class="flex flex-row"></div>
-
-
+        <div class="grid grid-col grid-gap-2 w-full">
+        <div class="flex flex-row">
+        <button class="a-btn whitespace-nowrap inline-flex justify-center items-center states [--un-bg-opacity:1]
+        text-success typography-title-success typography-subtitle-success typography-text-success typography-subtitle-opacity-100
+        typography-text-opacity-100 border-width-1 uno-layer-base-border-solid border-$a-layer-color grow text-xs w-full"
+                tabindex="0" style="--a-layer-color:hsla(var(--a-success),var(--un-bg-opacity)); --un-ring-color:hsl(var(--a-success));
+                --a-spacing:1;"><!---->Add<!----></button>
       </div>
+        </div>
+          </div>
+            </div>
+    <div class="grid grid-col grid-cols-1 content-between bg-gray-100 border-1 border-gray-200 rounded-xl overflow-hidden">
+      <a href="/product/2" class="grid-row grid-gap-3 p-1 [&amp;>*]:pointer-events-none">
+        <div class="w-full h-48 max-h-48 bg-white p-8 rounded-md">
+          <img class="w-full h-full object-contain" src="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg" alt="Mens Casual Premium Slim Fit T-Shirts ">
+        </div>
+        <div class="px-3">
+          <div class="font-bold">Mens Casual Premium Slim Fit T-Shirts</div>
+          <div class="text-md text-black">$22.30</div>
+          <p class="text-sm my-2">Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.</p>
+        </div>
+      </a>
+      <div class="grid-row w-full px-3 pb-3">
+        <div class="grid grid-col grid-gap-2 w-full">
+          <div class="flex flex-row">
+            <button class="a-btn whitespace-nowrap inline-flex justify-center items-center states [--un-bg-opacity:1]
+        text-success typography-title-success typography-subtitle-success typography-text-success typography-subtitle-opacity-100
+        typography-text-opacity-100 border-width-1 uno-layer-base-border-solid border-$a-layer-color grow text-xs w-full"
+                    tabindex="0" style="--a-layer-color:hsla(var(--a-success),var(--un-bg-opacity)); --un-ring-color:hsl(var(--a-success));
+                --a-spacing:1;"><!---->Add<!----></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid grid-col grid-cols-1 content-between bg-gray-100 border-1 border-gray-200 rounded-xl overflow-hidden">
+      <a href="/product/1" class="grid-row grid-gap-3 p-1 [&amp;>*]:pointer-events-none">
+        <div class="w-full h-48 max-h-48 bg-white p-8 rounded-md">
+          <img class="w-full h-full object-contain" src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" alt="Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops">
+        </div>
+        <div class="px-3">
+          <div class="font-bold">Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</div>
+          <div class="text-md text-black">$109.95</div>
+          <p class="text-sm my-2">Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in t... </p>
+        </div>
+      </a>
+      <div class="grid-row w-full px-3 pb-3">
+        <div class="grid grid-col grid-gap-2 w-full">
+          <div class="flex flex-row">
+            <button class="a-btn whitespace-nowrap inline-flex justify-center items-center states [--un-bg-opacity:1]
+        text-success typography-title-success typography-subtitle-success typography-text-success typography-subtitle-opacity-100
+        typography-text-opacity-100 border-width-1 uno-layer-base-border-solid border-$a-layer-color grow text-xs w-full"
+                    tabindex="0" style="--a-layer-color:hsla(var(--a-success),var(--un-bg-opacity)); --un-ring-color:hsl(var(--a-success));
+                --a-spacing:1;"><!---->Add<!----></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid grid-col grid-cols-1 content-between bg-gray-100 border-1 border-gray-200 rounded-xl overflow-hidden">
+      <a href="/product/1" class="grid-row grid-gap-3 p-1 [&amp;>*]:pointer-events-none">
+        <div class="w-full h-48 max-h-48 bg-white p-8 rounded-md">
+          <img class="w-full h-full object-contain" src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" alt="Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops">
+        </div>
+        <div class="px-3">
+          <div class="font-bold">Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</div>
+          <div class="text-md text-black">$109.95</div>
+          <p class="text-sm my-2">Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in t... </p>
+        </div>
+      </a>
+      <div class="grid-row w-full px-3 pb-3">
+        <div class="grid grid-col grid-gap-2 w-full">
+          <div class="flex flex-row">
+            <button class="a-btn whitespace-nowrap inline-flex justify-center items-center states [--un-bg-opacity:1]
+        text-success typography-title-success typography-subtitle-success typography-text-success typography-subtitle-opacity-100
+        typography-text-opacity-100 border-width-1 uno-layer-base-border-solid border-$a-layer-color grow text-xs w-full"
+                    tabindex="0" style="--a-layer-color:hsla(var(--a-success),var(--un-bg-opacity)); --un-ring-color:hsl(var(--a-success));
+                --a-spacing:1;"><!---->Add<!----></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
   </main>
 </template>
 

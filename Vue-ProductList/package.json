@@ -38,6 +38,6 @@
   },
   "prettier": {
     "singleQuote": true,
-    "length": 120
+    "length": 80
   }
 }
